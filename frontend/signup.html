@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="stylesheet" href="signup.css" />
+
+  </head>
+  <body>
+    <div class="page-container">
+  
+      <div class="image-container"></div>
+
+      <div class="form-container">
+        <h1 class="heading">Create an Account</h1>
+        <form id="signupForm">
+          <div class="field-container">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" placeholder="Full Name" required />
+          </div>
+
+          <div class="field-container">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Email" required />
+          </div>
+
+          <div class="field-container">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Password"
+              required
+            />
+          </div>
+
+          <div class="field-container">
+            <label for="confirmPassword">Confirm Password</label>
+            <input
+              type="password"
+              id="confirmPassword"
+              placeholder="Confirm Password"
+              required
+            />
+          </div>
+
+          <div class="field-container">
+            <label for="phone">Phone</label>
+            <input
+              type="text"
+              id="phone"
+              placeholder="+91 XXXXXXXXXX"
+              pattern="^\+91\d{10}$"
+              required
+            />
+          </div>
+
+          <div class="field-container">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" required />
+          </div>
+
+          <div class="footer-container">
+            <div class="btn-container">
+              <button type="submit" class="btn btn-outline-success">
+                Create account
+              </button>
+            </div>
+            <p class="para">
+              Already have an account? <a href="login.html">Login here</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="signup.js"></script>
+  </body>
+</html>
