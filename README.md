@@ -81,6 +81,9 @@ node server.js
 * Express for building the backend server.
 * HTML/CSS/JavaScript for creating the frontend.
 
+**SIGNUP PAGE**
 ![Signup Page](assets/signup.png)
+
+**LOGIN PAGE**
 ![Login Page](assets/login.png)
 
