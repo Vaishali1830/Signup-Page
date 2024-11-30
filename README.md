@@ -39,7 +39,7 @@ This is a simple **Signup Page** project built using **HTML**, **CSS**, **JavaSc
 
 1. **Clone the repository**:
 ```bash
-   git clone https://github.com/your-username/signup-page.git
+   git clone https://github.com/Vaishali1830/Signup-Page
 ```
 
 2. **Navigate to the project directory**:
@@ -69,11 +69,11 @@ node server.js
 
 ### Usage
 
-1. Open the project in a web browser.
-2. Fill in the Signup Form with required details (Full Name, Email,Password, Phone Number, Date of Birth).
-3. Click the Signup button to submit the form.
-4. The backend will process the form data, validate inputs, hash the password, and store the user in the MongoDB database.
-5. Upon successful signup, users are redirected to the login page (and a success message will be displayed).
+* Open the project in a web browser.
+* Fill in the Signup Form with required details (Full Name, Email,Password, Phone Number, Date of Birth).
+* Click the Signup button to submit the form.
+* The backend will process the form data, validate inputs, hash the password, and store the user in the MongoDB database.
+* Upon successful signup, users are redirected to the login page (and a success message will be displayed).
 
 ### Acknowledgments
 * MongoDB for storing user data securely.
@@ -81,5 +81,6 @@ node server.js
 * Express for building the backend server.
 * HTML/CSS/JavaScript for creating the frontend.
 
-![Signup Page](assets\signup.png)
-![Login Page](assets\login.png)
+![Signup Page](assets/signup.png)
+![Login Page](assets/login.png)
+
