@@ -55,8 +55,8 @@ npm install
 4. **Set up environment variables**:
 Create a .env file in the backend folder and add the following (replace values with your actual configuration):
 ```bash
-PORT=port_no
-DB_URL=database URL
+PORT=PORT_NO
+DB_URL=DATABASE_URL
 ```
 
 5. **Start the server**:
