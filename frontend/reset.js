@@ -42,4 +42,4 @@ document.getElementById("resetform").addEventListener("submit" , async(e) =>{
         console.error("Error resetting password:", error);
     }
 
-})
+}) 
