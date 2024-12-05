@@ -24,6 +24,8 @@ This is a simple **Signup Page** project built using **HTML**, **CSS**, **JavaSc
   - Express.js
   - MongoDB
   - bcrypt (for password hashing)
+  - crypto
+  - nodemailer(for sending mail)
   
 - **Environment**: 
   - .env file to manage sensitive information such as database URI and port
@@ -74,6 +76,7 @@ node server.js
 * Click the Signup button to submit the form.
 * The backend will process the form data, validate inputs, hash the password, and store the user in the MongoDB database.
 * Upon successful signup, users are redirected to the login page (and a success message will be displayed).
+* Forget password option sends a mail to user's registerd email id to reset the password and redirects to login page after resetting the password.
 
 ### Acknowledgments
 * MongoDB for storing user data securely.
